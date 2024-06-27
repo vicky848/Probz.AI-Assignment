@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Chart from './components/Charts';
+const data = [
+  { "timestamp": "2023-01-01T00:00:00Z", "value": 10 },
+  { "timestamp": "2023-01-02T00:00:00Z", "value": 12 },
+  { "timestamp": "2023-01-03T00:00:00Z", "value": 5 }
+]
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Chart data={data} />
+   
     </div>
   );
 }

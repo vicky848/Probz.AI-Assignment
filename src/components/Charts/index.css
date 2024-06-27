@@ -1,0 +1,35 @@
+
+.chart-container{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+
+}
+
+
+
+
+.header{
+    color: #ffffff;
+    font-family: "Robto";
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+ }
+ .selector{
+  height: 29px;
+  width: 132px;
+  border-radius: 3px;
+  border-width: 0px;
+ }

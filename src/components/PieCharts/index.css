@@ -1,0 +1,13 @@
+.pie-chart-container{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+
+  
+ 
+}
+.pie-chart-header{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
